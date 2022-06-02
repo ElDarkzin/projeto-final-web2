@@ -1,0 +1,19 @@
+
+CREATE TABLE cadastro (
+    id_usuario int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome varchar(40) NOT NULL,
+    cpf	int(11) NOT NULL,
+    telefone int(11) NOT NULL,
+    senha varchar(50) NOT NULL,
+    email	varchar(60) NOT NULL,
+    genero	varchar(15) NOT NULL
+    );
+    
+    CREATE TABLE cadastro_banheiro (
+    id_banheiro int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    local_banheiro	varchar(100) NOT NULL,
+    quantidade_banheiro	int(10)	NOT NULL,
+    descricao_banheiro	int(11)NOT NULL,
+    acessorios	varchar(200)	NOT NULL,
+    pagamento	varchar(25) NOT NULL    
+    )
